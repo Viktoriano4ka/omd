@@ -5,7 +5,7 @@ import re
 def get_data_from_csv(name_file: str) -> list:
     """Get data from csv file."""
     df = list()
-    with open(name_file, newline='', encoding="utf8") as csv_file:
+    with open(name_file, newline='', encoding='utf8') as csv_file:
         csv_reader = csv.reader(csv_file, delimiter=';')
         for row in csv_reader:
             df.append(row)
@@ -48,7 +48,7 @@ def print_fancy_dict(source_dict: dict) -> None:
 def save_department_report(source_dict: dict) -> None:
     """Save department report into csv file."""
     re_digits = re.compile(r"\b\d+\b")
-    with open('Department_Report.csv', 'w', newline='', encoding="utf8") as csvfile:
+    with open('Department_Report.csv', 'w', newline='', encoding='utf8') as csvfile:
         filewriter = csv.writer(csvfile, delimiter=';')
         filewriter.writerow(['Department', 'Number_of_employees', 'Min_salary', 'Max_salary', 'Avg_salary'])
         for i in source_dict.keys():
