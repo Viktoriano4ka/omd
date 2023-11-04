@@ -1,0 +1,16 @@
+$ python -m pytest -q .\Homework5\Issue5\what_is_year_now.py --cov --cov-report html
+...                                                                                                                                   [100%]
+
+---------- coverage: platform win32, python 3.11.2-final-0 -----------
+Coverage HTML written to dir htmlcov
+
+3 passed in 2.43s
+
+---------- coverage: platform win32, python 3.11.2-final-0 -----------
+Name                                   Stmts   Miss  Cover
+----------------------------------------------------------
+Homework5\Issue5\what_is_year_now.py      35      0   100%
+----------------------------------------------------------
+TOTAL                                     35      0   100%
+
+3 passed in 2.06s
