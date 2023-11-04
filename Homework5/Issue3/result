@@ -1,0 +1,7 @@
+PS C:\Users\User\PycharmProjects\omd> python -m unittest .\Homework5\Issue3\one_hot_encoder.py
+....
+----------------------------------------------------------------------
+Ran 4 tests in 0.002s
+
+OK
+PS C:\Users\User\PycharmProjects\omd>
